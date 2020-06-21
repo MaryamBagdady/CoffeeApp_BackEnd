@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f85b5528-6542-40bd-a821-fd59e9c10b8e" name="Default Changelist" comment="" />
+    <list default="true" id="f85b5528-6542-40bd-a821-fd59e9c10b8e" name="Default Changelist" comment="Laatste testen">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Logica/Models/Gebruiker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Logica/Models/Gebruiker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +45,13 @@
         <item name="dbi338331_coffeeapp: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
         <item name="Bestelling: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dbi338331_coffeeapp@mssql.fhict.local" type="feb32156:DbDataSourceImpl" />
+        <item name="dbi338331_coffeeapp: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="Gebruiker: table" type="63ab2ba1:MsImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -107,6 +119,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mbagd\OneDrive\Documenten\3de semster\FUN4\FUN KoffieApp" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.KoffieAppFunApplication">
@@ -236,7 +251,7 @@
       <workItem from="1592219943829" duration="677000" />
       <workItem from="1592593977960" duration="2501000" />
       <workItem from="1592671256219" duration="7899000" />
-      <workItem from="1592732576112" duration="11236000" />
+      <workItem from="1592732576112" duration="16633000" />
     </task>
     <task id="LOCAL-00001" summary="many changes">
       <created>1591004087317</created>
@@ -333,13 +348,14 @@
     <MESSAGE value="ci fix" />
     <MESSAGE value="test" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Laatste testen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laatste testen" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Assign_Data_Sources" timestamp="1588682335008">
+    <state x="361" y="71" key="#Assign_Data_Sources" timestamp="1592779762534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1588682335008" />
+    <state x="361" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1592779762534" />
     <state x="361" y="71" key="#SQL_Dialects" timestamp="1586341837916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -368,10 +384,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1586338984211" />
-    <state x="322" y="7" key="CommitChangelistDialog2" timestamp="1592751455015">
+    <state x="322" y="7" key="CommitChangelistDialog2" timestamp="1592779743699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="322" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592751455015" />
+    <state x="322" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592779743699" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591207766527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
