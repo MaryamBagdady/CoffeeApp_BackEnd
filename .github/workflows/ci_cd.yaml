@@ -1,0 +1,29 @@
+name: CI_CD
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 14.0.1
+        uses: actions/setup-java@v1
+        with:
+          java-version: '14.0.1'
+
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
+      - name: test BestellingMock
+        run: mvn -Dtest=BestellingMock test
+      - name: test GebruikerMock
+        run: mvn -Dtest=GebruikerMock test
+      - name: test KoffieMock
+        run: mvn -Dtest=KoffieMock test
+
+  deploy:
+    name: db_deployment
+    runs-on: windows-latest
+    steps:
+      - name: deploying
+        run: echo 'deploy job'
